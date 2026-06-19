@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMonitor - Monitoramento de Desmatamento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
 
+    <header>
+        <h1>🌳 EcoMonitor</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#dados">Dados</a>
+            <a href="#sobre">Sobre o Projeto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero" id="inicio">
+            <h2>Monitoramento do Desmatamento em Tempo Real</h2>
+            <p>Utilizando tecnologia e dados abertos para acompanhar o impacto ambiental e proteger nossa biodiversidade.</p>
+        </section>
+
+        <section class="dashboard-grid">
+            <div class="card">
+                <h3>Área Alerta (Este Mês)</h3>
+                <div id="card-area" class="data-highlight">Carregando...</div>
+                <p>Alertas de desmatamento consolidados.</p>
+            </div>
+            <div class="card">
+                <h3>Focos de Calor</h3>
+                <div id="card-focos" class="data-highlight">Carregando...</div>
+                <p>Focos ativos detectados via satélite.</p>
+            </div>
+            <div class="card">
+                <h3>Região Mais Afetada</h3>
+                <div id="card-regiao" class="data-highlight">Carregando...</div>
+                <p>Bioma ou estado com maior índice registrado.</p>
+            </div>
+        </section>
+
+        <main class="main-content" id="dados">
+            <h2>Visualização de Alertas Recentes</h2>
+            <p>Abaixo estão listados os últimos registros capturados pelo sistema.</p>
+            
+            <div id="painel-alertas" class="placeholder-map">
+                Carregando dados do servidor...
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EcoMonitor - Projeto de Código Aberto para Preservação Ambiental</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
