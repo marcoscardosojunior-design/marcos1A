@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     inicializarDashboard();
 });
@@ -53,4 +52,5 @@ function gerarListaAlertas(alertas) {
         conteinerAlertas.innerHTML = htmlLista;
     }
 }
+
 
