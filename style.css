@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 #card-area {
-    color: #d90429; /* Destaca a área desmatada em vermelho */
+    color: #d90429; /* Destaque em vermelho para desmatamento */
 }
 
 /* Conteúdo Principal e Alertas */
@@ -123,7 +123,8 @@ nav a:hover {
     list-style: none;
     padding: 0;
     max-width: 500px;
-    margin: 20px auto text-align: left;
+    margin: 20px auto;
+    text-align: left;
 }
 
 .item-alerta {
