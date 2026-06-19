@@ -1,4 +1,3 @@
-
 /* Configurações Globais */
 * {
     margin: 0;
@@ -87,3 +86,65 @@ nav a:hover {
 .card h3 {
     font-size: 1.1rem;
     color: #40916c;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.data-highlight {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1b4332;
+    margin-bottom: 10px;
+}
+
+#card-area {
+    color: #d90429;
+}
+
+/* Conteúdo Principal e Alertas */
+.main-content {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.placeholder-map {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+/* O bloco abaixo foi totalmente corrigido */
+.lista-alertas {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.item-alerta {
+    padding: 12px;
+    border-bottom: 1px solid #e9ecef;
+    color: #495057;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-alerta strong {
+    color: #d90429;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1b4332;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 60px;
+}
