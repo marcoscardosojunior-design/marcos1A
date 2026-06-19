@@ -53,3 +53,4 @@ function gerarListaAlertas(alertas) {
         conteinerAlertas.innerHTML = htmlLista;
     }
 }
+
